@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    text-align: center;
+    color:red;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.container{
+    padding-bottom: 15px;
+    width: 700px;
+    margin-left: 30px;
+    background-color: #ddd;
+    margin-bottom: 10px;
+}
+.container h3{
+    background-color: black;
+    color:white;
+    width: 100%;
+    margin-bottom: 6px;
+    padding: 8px;
+}
+input:focus,textarea:focus{
+    outline:0;
+}
+form{
+    padding: 10px;
+    text-align: center;
+    margin-top:20px;
+    background-color: cadetblue;
+    color:white;
+    text-decoration: underline palevioletred;
+}
+
+form input{
+    border: 1px solid lightgreen;
+    width:190px;
+    height:40px;
+    border-radius: 15px;
+    text-align: center;
+}
+form textarea{
+    border: 1px solid lightgreen;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+    resize: none;
+}
+form .element{
+    margin-top:10px;
+}
+form .element h5{
+    padding: 10px;
+    margin: 8px;
+}
+form .btn{
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.comment{
+    padding: 6px;
+    margin-left:10px;
+}
+.error{
+    margin-top: 30px;
+    text-align: center;
+    color:black;
+    padding: 10px;
+    background-color: red;
+    width: 100%;
+}
+
+/* styling the page links */
+.pagination{
+    padding: 10px;
+    margin-left: 20px;
+}
+.pagination a{
+    display: inline-block;
+    margin-left: 3px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: lightseagreen;
+    border-radius: 10px;
+    color:white;
+    transition: all .5s ease-in-out;
+}
+.pagination a:hover{
+    transform: translateY(-5px);
+}

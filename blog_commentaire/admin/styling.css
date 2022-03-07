@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input:focus{
+    outline:0;
+}
+.modify-form{
+    padding: 10px;
+    margin-top: 20px;
+    background-color: azure;
+    min-width: 500px;
+    text-align: center;
+}
+.modify-form h2{
+    font-size: 2rem;
+    color: blue;
+    padding: 8px;
+    margin: 6px
+}
+
+.modify-form input{
+    display: inline-block;
+}
+.modify-form input{
+    padding: 15px;
+    
+    text-align: center;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    border: 1px solid greenyellow;
+    border-radius: 10px;
+}
+.titre{
+    width: 300px;
+}
+.modify-form textarea{
+    border: 1px solid greenyellow;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+}
+.modify-form .element label{
+    font-size: 20px;
+    color: purple;
+}
+.modify-form .element .btn{
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+    margin-top: 8px;
+    margin-left:50px;
+    width: 100px;
+}
+.modify-form .element .btn:hover{
+    opacity:0.5;
+}
+.error{
+    text-align: center;
+    color:red;
+}
+/* -------------- add form -------------- */
+textarea:focus{
+    outline: 0;
+}
+.add-form{
+    margin-top: 20px;
+    padding: 10px;
+    box-shadow:  rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+}
+.add-form textarea{
+    font-size: 1rem;
+    text-align: center;
+    border: 1px solid lightgreen;
+    border-radius: 10px;
+}
+.add-form input{
+    display: inline-block;
+    padding: 9px;
+    margin: 6px;
+    border: 1px solid lightgreen;
+    border-radius: 10px;
+}
+.add-form #titre{
+    width: 250px;
+}
+.add-form .btn{
+    padding: 20px;
+    background-color: lightgreen;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 17px;
+    color: white;
+    transition: all 1s ease-in-out;
+
+}
+.add-form .btn:hover{
+    opacity: 0.5;
+    color: black;
+}
+/************************ supprimer ******************/
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.container div{
+    padding: 10px;
+    text-align: center;
+    background-color: #ddd;
+    margin: 10px;
+    width: 400px;
+}
+.container div h2{
+    color: blue;
+    padding: 10px;
+}
+.container div a{
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+}
+.container div a:hover{
+    opacity: 0.5;
+}
